@@ -1,0 +1,18 @@
+GIT
+  remote: git://github.com/chrisbratlien/rb-music-theory.git
+  revision: f5aab74ecc666600f317dd074214c3e6ff220c57
+  specs:
+    rb-music-theory (0.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rb-music-theory!
+
+BUNDLED WITH
+   1.12.5
