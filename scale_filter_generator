@@ -4,6 +4,7 @@ require 'rubygems'
 require 'bundler'
 Bundler.setup(:default)
 
+require 'rb-music-theory'
 require './scale_filter_generator'
 
 ScaleFilterGenerator.generate_all
