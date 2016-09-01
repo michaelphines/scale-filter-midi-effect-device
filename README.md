@@ -1,14 +1,18 @@
+<section class="readme-only">
+
 # Scale Filter MIDI Effect Devices for Ableton
 
 This is a script that generates Ableton MIDI Effect Devices that allow you to filter the piano roll in various keys and modes.
 
 ##[Download the *Scale.Filters.zip* here](https://github.com/michaelphines/scale-filter-midi-effect-device/releases)
-###Only tested on Live 9.6.2.
+
+</section>
 
 ![device demo](https://s3.amazonaws.com/michaelphines-shared-files/Scale+Filters.gif)
 
 ## Quirks
 
+- Only tested on Live 9.6.2.
 - If the device is on, you won't be able to play non-diatonic notes. However folding and note names work just fine when the device is disabled. I can't figure out how to get it to start disabled by default.
 - It generates lots of theoretical scales like Fb major, but names the notes like A and C# instead of Bbb and Db. This is what Ableton does anyway, though.
 - If you do have non-diatonic notes in your MIDI already, those will not disappear.
