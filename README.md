@@ -16,7 +16,7 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 - It's mostly untested, but *please do* report bugs!
 
 ##Scales generated:
-^(In all keys including theoretical ones like Fb)
+####In all keys including theoretical ones like Fb
 
 - Diminished
 - Dorian
@@ -41,5 +41,3 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 ## Implementation details
 
 I didn't have the patience to do it by hand, so I decided to try to write a script. A quick peak at the file header of the Ableton device revealed it was just a gziped XML file, and I found a Ruby gem that generates scales, so I was off to the races. It didn't work at first, but it appears that Ableton cares strangely a lot about the tabbing and whitespace in the XML, which frankly terrifies me. I hope I'm wrong about that.
-
-The generator is [on Github](https://github.com/michaelphines/scale-filter-midi-effect-device) so feel free to create pull requests, issues, forks, etc. I'm too excited to start using it to work much more on it right now.
