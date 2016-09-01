@@ -3,7 +3,7 @@
 This is a script that generates Ableton MIDI Effect Devices that allow you to filter the piano roll in various keys and modes.
 
 ##[Download the *Scale.Filters.zip* here](https://github.com/michaelphines/scale-filter-midi-effect-device/releases)
-###Only tested on Live Live 9.6.2.
+###Only tested on Live 9.6.2.
 
 ![device demo](https://s3.amazonaws.com/michaelphines-shared-files/Scale+Filters.gif)
 
