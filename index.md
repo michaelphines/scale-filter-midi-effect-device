@@ -13,7 +13,10 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 
 </section>
 
-![device demo](https://s3.amazonaws.com/michaelphines-shared-files/Scale+Filters.gif)
+## Demo
+
+![demo of adding the device, clicking a note on the piano roll without a bullet to highlight a non-diatonic note, and moving it](https://s3.amazonaws.com/michaelphines-shared-files/Scale+Filters.gif)
+
 
 ## Quirks
 
