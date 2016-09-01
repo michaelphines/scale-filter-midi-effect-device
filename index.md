@@ -28,6 +28,7 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 - It's mostly untested, but *please do* report bugs!
 
 ##Scales generated:
+
 ####In all keys including theoretical ones like Fb
 
 - Diminished
