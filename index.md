@@ -27,9 +27,9 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 - I added a marker before each of the diatonic note names, so you can distinguish them. This has the unintended, but possibly pleasant side effect of making notes in the piano roll also have a marker when they're diatonic, but this only works when folded.
 - It's mostly untested, but *please do* report bugs!
 
-##Scales generated:
+## Scales generated:
 
-####In all keys including theoretical ones like Fb
+#### In all keys including theoretical ones like Fb
 
 - Diminished
 - Dorian
