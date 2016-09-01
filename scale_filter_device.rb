@@ -30,7 +30,7 @@ class ScaleFilterDevice
                   <LomId Value="0" />
                   <ArrangerAutomation>
                     <Events>
-                      <BoolEvent Time="-63072000" Value="true" />
+                      <BoolEvent Time="-63072000" Value="false" />
                     </Events>
                   </ArrangerAutomation>
                   <Manual Value="true" />
@@ -71,7 +71,7 @@ class ScaleFilterDevice
                   </Value>
                 </LastPresetRef>
                 <LockedScripts />
-                <IsFolded Value="false" />
+                <IsFolded Value="true" />
                 <ShouldShowPresetName Value="false" />
                 <UserName Value="" />
                 <Annotation Value="" />
@@ -168,7 +168,7 @@ class ScaleFilterDevice
               <BoolEvent Time="-63072000" Value="true" />
             </Events>
           </ArrangerAutomation>
-          <Manual Value="true" />
+          <Manual Value="false" />
           <AutomationTarget Id="0">
             <LockEnvelope Value="0" />
           </AutomationTarget>
@@ -226,7 +226,7 @@ class ScaleFilterDevice
           </Value>
         </LastPresetRef>
         <LockedScripts />
-        <IsFolded Value="false" />
+        <IsFolded Value="true" />
         <ShouldShowPresetName Value="true" />
         <UserName Value="#{device_name}" />
         <Annotation Value="" />
@@ -235,10 +235,10 @@ class ScaleFilterDevice
         </SourceContext>
         <OverwriteProtectionNumber Value="2305" />
         <Branches />
-        <IsBranchesListVisible Value="true" />
+        <IsBranchesListVisible Value="false" />
         <IsReturnBranchesListVisible Value="false" />
         <IsRangesEditorVisible Value="false" />
-        <AreDevicesVisible Value="true" />
+        <AreDevicesVisible Value="false" />
         <MacroControls.0>
           <LomId Value="0" />
           <ArrangerAutomation>
@@ -447,7 +447,7 @@ class ScaleFilterDevice
         <ForceDisplayGenericValue.5 Value="false" />
         <ForceDisplayGenericValue.6 Value="false" />
         <ForceDisplayGenericValue.7 Value="false" />
-        <AreMacroControlsVisible Value="true" />
+        <AreMacroControlsVisible Value="false" />
         <IsAutoSelectEnabled Value="false" />
         <ChainSelector>
           <LomId Value="0" />
@@ -472,7 +472,7 @@ class ScaleFilterDevice
           </ModulationAutomation>
         </ChainSelector>
         <ChainSelectorRelativePosition Value="-1073741824" />
-        <ViewsToRestoreWhenUnfolding Value="0" />
+        <ViewsToRestoreWhenUnfolding Value="2" />
         <ReturnBranches />
         <BranchesSplitterProportion Value="0.5" />
         <ShowBranchesInSessionMixer Value="false" />
