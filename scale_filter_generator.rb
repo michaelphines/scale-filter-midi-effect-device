@@ -1,3 +1,5 @@
+require 'fileutils'
+require 'zlib'
 require './scale_filter_device'
 
 class ScaleFilterGenerator
@@ -24,7 +26,10 @@ class ScaleFilterGenerator
 
   class << self
     def generate_all
-      puts ScaleFilterDevice.new("My Device", a: 1, b: 3).xml
+      FileUtils.mkdir_p("output")
+      Zlib::GzipWriter.open("./output/MyDevice.adg") do |gz|
+        gz.write ScaleFilterDevice.new("My Device", a: 1, b: 3).xml
+      end
     end
   end
 end
