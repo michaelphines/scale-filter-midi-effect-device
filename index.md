@@ -54,3 +54,9 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 ## Implementation details
 
 I didn't have the patience to do it by hand, so I decided to try to write a script. A quick peak at the file header of the Ableton device revealed it was just a gziped XML file, and I found a Ruby gem that generates scales, so I was off to the races. It didn't work at first, but it appears that Ableton cares strangely a lot about the tabbing and whitespace in the XML, which frankly terrifies me. I hope I'm wrong about that.
+
+## About me
+
+I produce music as Archange7, you can find me on [SoundCloud](https://soundcloud.com/archange7), Spotify, and iTunes.
+
+I'm a partner and software engineer at [Keypunch Studios](http://keypunch.com/). At Keypunch, we act as CTOs for hire. We not only write the software, but also function as project managers and technical advisors for your startup, and we will contract with design specialists we trust when necessary. If your project is a startup, when the time comes for you get venture capital funding or you have a steady revenue stream, we assist in hiring a permanent CTO and in-house developers to maintain your software. We specialize in web- and mobile-based application development, and also provide on-site training and staff augmentation services in the Chicago area.
