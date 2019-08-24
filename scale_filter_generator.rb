@@ -1,12 +1,14 @@
 require 'fileutils'
 require 'zlib'
 require 'shellwords'
+require './scale_filter_note'
 require './scale_filter_device'
 
 class ScaleFilterGenerator
   SCALE_NAMES = {
      major:                  "Major (Ionian)",
      natural_minor:          "Natural Minor (Aeolian)",
+     general_minor:          "General Minor (Aeolian+Harmonic+Melodic)",
      dorian:                 "Dorian",
      phrygian:               "Phrygian",
      lydian:                 "Lydian",
@@ -27,11 +29,11 @@ class ScaleFilterGenerator
 
   class << self
     def flat_note_name(note)
-      Note.flat_twelve_tones[note.value % 12]
+      ScaleFilterNote.flat_twelve_tones[note.value % 12]
     end
 
     def note_label(note_number)
-      note = Note.new(note_number)
+      note = ScaleFilterNote.new(note_number)
       octave = (note_number/12) - 2
       "\u2666 #{note.name}#{octave}"
     end
@@ -53,7 +55,7 @@ class ScaleFilterGenerator
         path = "./output/Scale Filters/#{scale_name}"
         FileUtils.mkdir_p(path)
         12.times do |note_number|
-          root_note = Note.new(note_number)
+          root_note = ScaleFilterNote.new(note_number)
           scale = root_note.send("#{scale_identifier}_scale")
           generate_filter(path, "#{root_note.name} #{scale_name} Scale Filter", scale)
           generate_filter(path, "#{flat_note_name(root_note)} #{scale_name} Scale Filter", scale) unless root_note.name == flat_note_name(root_note)
