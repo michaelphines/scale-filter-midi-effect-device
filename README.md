@@ -45,6 +45,9 @@ This is a script that generates Ableton MIDI Effect Devices that allow you to fi
 - Phrygian
 - Whole Tone
 
+- General Minor
+  - This is a scale that adds the harmonic and melodic scale notes to the natural minor scale
+
 
 ## Implementation details
 
@@ -52,6 +55,4 @@ I didn't have the patience to do it by hand, so I decided to try to write a scri
 
 ## About me
 
-I produce music as Archange7, you can find me on [SoundCloud](https://soundcloud.com/archange7), Spotify, and iTunes.
-
-I'm a partner and software engineer at [Keypunch Studios](http://keypunch.com/). At Keypunch, we act as CTOs for hire. We not only write the software, but also function as project managers and technical advisors for your startup, and we will contract with design specialists we trust when necessary. If your project is a startup, when the time comes for you get venture capital funding or you have a steady revenue stream, we assist in hiring a permanent CTO and in-house developers to maintain your software. We specialize in web- and mobile-based application development, and also provide on-site training and staff augmentation services in the Chicago area.
+I produce music as [Archange7](https://archange7.com), you can find me on [Spotify](https://open.spotify.com/artist/53wzdEShKkG9TMGwVc0iEe) and [iTunes](https://geo.music.apple.com/us/artist/archange7/1207668748?mt=1&app=music).
